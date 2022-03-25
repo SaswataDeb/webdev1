@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+body {
+  background-color: #98BAE7;
+  
+}
+
+h1 {
+  background-color: deepblue;
+ 
+}
+div {
+  background-color: pink;
+ 
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th, td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #D6EEEE;
+}
+
+</style>
+</head>
+<body>
+
+<h1>EXAMPLE</h1>
+<table>
+  <tr>
+  <th>Grand Total</th>
+  <th>Mean</th>
+  <th>Standard Deviation(SD OR σ)</th>
+  <th>Letter Grade</th>
+  <th>Grade point</th>
+  </tr>
+  <tr>
+  <td>81.4</td>
+  <td>77</td>
+  <td>7.5</td>
+  <td>A</td>
+  <td>9</td>
+  </tr>
+  <tr>
+  <td>69</td>
+  <td>61</td>
+  <td>5</td>
+  <td>S</td>
+  <td>10</td>
+  </tr>  
+  </table>
+  
+  
+ <div>All Pass Criteria satisfied
+  <ul>
+  <li>Mean+1.5*SD=77+1.5*7.5=88.25 i.e. 81.4>=88.25</li>
+  <li>Mean+0.5*SD=77+0.5*7.5=80.75 i.e. 81.4>=80.75</li>
+  <li>Mean+1.5*SD=61+1.5*5=68.5 i.e. 69>68.5</li>
+  </ul>
+  </div>
+  
+  <h1>EXAMPLE</h1>
+<table>
+  <tr>
+  <th>Course Credit</th>
+  <th>Grand Total</th>
+  <th>Mean</th>
+  <th>Standard Deviation(SD OR σ)</th>
+  <th>Letter Grade</th>
+  <th>Grade point</th>
+  </tr>
+  <tr>
+  <td>4</td>
+  <td>81.4</td>
+  <td>77</td>
+  <td>7.5</td>
+  <td>A</td>
+  <td>9</td>
+  </tr>
+  <tr>
+  <td>3</td>
+  <td>65</td>
+  <td>80</td>
+  <td>4.5</td>
+  <td>E</td>
+  <td>5</td>
+  </tr>
+  <tr>
+  <td>3</td>
+  <td>87</td>
+  <td>71</td>
+  <td>10</td>
+  <td>S</td>
+  <td>10</td>
+  </tr>
+  </table>
+  <div>GPA=Summation from i=1 to n (Course Credit+Grade point)/Summation from i=1 to n(Course Credit)</div>
+  <div>=(4*9+3*5+3*10)/(4+3+3)</div>
+  <div>=(36+15+30)/10</div>
+  <div>=8.1</div>
+  
+</body>
+</html>
+
+
